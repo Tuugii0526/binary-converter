@@ -1,0 +1,54 @@
+:root {
+  --background-color: rgb(26, 26, 34);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--background-color);
+}
+h2 {
+  color: #fff;
+  text-align: center;
+  margin: 20px 0 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+}
+.decimalInputContainer {
+  height: 10%;
+  width: 100%;
+  margin: 0 auto 20px;
+  display: grid;
+  grid-template-columns: 3fr 0.5fr;
+  grid-template-rows: 100%;
+  column-gap: 1px;
+}
+label {
+  display: flex;
+  color: #fff;
+  gap: 5px;
+}
+
+#binary {
+  min-height: 100px;
+  min-width: 100px;
+  max-width: 200px;
+  border: 2px solid yellow;
+  margin: 0 auto;
+  color: #fff;
+  padding: 10px 10px;
+  word-break: break-word;
+}
+button:hover {
+  background-color: rgb(116, 116, 8);
+  border: 2px solid white;
+  border-radius: 2px;
+}
